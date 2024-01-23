@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOKEY'S</title>
+    <!-- TAILWIND AND DAISY UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Manrope:wght@400;500;600;700;800&family=Merriweather:wght@900&family=Mulish:ital,wght@0,400;0,600;0,800;1,300&family=Open+Sans:wght@800&family=Poppins:wght@400;600;700;800&family=Work+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+    .font-manrope {
+      
+        font-family: 'Manrope', sans-serif;
+
+    }
+</style>
+</head>
+<body class="font-manrope">
+    <header class="lg:mx-20">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a class="text-[#FF4240]">Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-2xl lg:text-4xl">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-base">
+                    <li><a class="text-[#FF4240]">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>contact</a></li>
+                    
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <img src="Images/Frame (1).png" class="hidden lg:visible">
+                  <a class="btn btn-error lg:ml-6">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <!-- <section class=" m-2 lg:mx-20">
+        <div class="carousel w-full h-[500px]">
+          <div id="slide1" class="carousel-item relative w-full">
+            <div class="relative flex flex-col">
+              <div class=""><img src="Images/1.png" class="w-full" /></div>
+              <div class="bg-[#131318] text-white p-4 rounded-lg lg:absolute top-[350px] right-[32px] w-[560px] h-[160px] p-8"><h1 class="text-lg lg:text-xl">Meet all the heroes from the field</h1>
+                <p class="text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            </div> -->
+            <!-- sm:right-1/2 sm:top-[80%] -->
+            <!-- <div class="absolute flex justify-between transform -translate-y-1/2left-1/2 lg:top-[80%]"> 
+              <div><a href="#slide3" class="btn btn-circle btn-outline">❮</a>
+              <a href="#slide2" class="btn btn-circle btn-outline">❯</a></div>
+            </div>
+          </div> 
+          <div id="slide2" class="carousel-item relative w-full">
+            <div class="">
+              <div class=""><img src="Images/Cup-3 (1).jpg" class="w-full" /></div>
+              <div class="bg-[#131318] w-[560px] h-[160px] text-white p-8 rounded-lg lg:absolute top-[350px] right-[32px]"><h1 class="text-xl">Meet all the heroes from the field</h1>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 lg:top-[85%]">
+                <div><a href="#slide1" class="btn btn-circle btn-outline">❮</a>
+                <a href="#slide3" class="btn btn-circle btn-outline">❯</a></div>
+              </div>
+          </div> 
+          <div id="slide3" class="carousel-item relative w-full">
+            <div class="">
+              <div class=""><img src="Images/Cup-2 (1).jpg" class="w-full h-auto" /></div>
+              <div class="bg-[#131318] w-[560px] h-[160px] text-white p-8 rounded-lg lg:absolute top-[350px] right-[32px]"><h1 class="text-xl">Meet all the heroes from the field</h1>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 lg:top-[90%]">
+                <div><a href="#slide2" class="btn btn-circle btn-outline">❮</a>
+                <a href="#slide1" class="btn btn-circle btn-outline">❯</a></div>
+              </div>
+          </div> 
+        </div>
+      </section> -->
+      <!-- profession hockeys club -->
+      <!-- <section class="m-2 bg-[#FFF] lg:m-20">
+            <h1 class="text-xl font-extrabold text-center px-6 sm:px-8 lg:text-4xl">Professional Hockeys Club</h1>
+            <p class="text-xs lg:font-medium text-center sm:px-4 sm:my-4 lg:text-sm">Professional ice hockey expanded across Canada and the United States 
+              and eventually to many other countries.</p>
+        <div class="grid grid-cols-1 lg:grid-cols-4">
+          <div class="relative space-y-4 flex flex-col justify-center items-center">
+            <div class="relative py-5"><img src="Images/red.png" class="relative"></div>
+            <h1 class="absolute top-12 left-[160px] lg:left-[114px]">87%</h1>
+            <h3 class="text-xl font-semibold text-[#131318]">Prayer Facility</h3>
+            <p class="text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          <div class="relative space-y-4 flex flex-col justify-center items-center">
+            <div class="relative py-5"><img src="Images/green.png" class="relative"></div>
+            <h1 class="absolute top-12 left-[160px] lg:left-[114px]">95%</h1>
+            <h3 class="text-xl font-semibold text-[#131318]">Experienced Coach</h3>
+            <p class="text-center">We are providing top ranking Experienced Coach</p>
+          </div>
+          <div class="relative space-y-4 flex flex-col justify-center items-center">
+            <div class="relative py-5"><img src="Images/yellow.png" class="relative"></div>
+            <h1 class="absolute top-12 left-[160px] lg:left-[114px]">90%</h1>
+            <h3 class="text-xl font-semibold text-[#131318]">Senior Player</h3>
+            <p class="text-center">A large number senior player play here .</p>
+          </div>
+          <div class="relative space-y-4 flex flex-col justify-center items-center">
+            <div class="relative py-5"><img src="Images/blue.png" class="relative"></div>
+            <h1 class="absolute top-12 left-[160px] lg:left-[114px]">80%</h1>
+            <h3 class="text-xl font-semibold text-[#131318]">Training Ground</h3>
+            <p class="text-center">We are providing number one class Training Ground  .</p>
+          </div>
+        </div>
+      </section> -->
+      <!-- profession hockeys club end  -->
+
+
+      <!-- Program Sections start  -->
+      <section class="m-4 lg:m-20">
+        <h1>Program Sections</h1>
+        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+           Purus urna in sit nullam proin. </p>
+           <div>
+            <div><div class="hero min-h-screen" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
+              <div class="hero-overlay bg-opacity-60"></div>
+              <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-md">
+                  <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                  <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div></div>
+            <div></div>
+            <div></div>
+           </div>
+
+      </section>
+
+    </body>
+    </html>

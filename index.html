@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Manrope:wght@400;500;600;700;800&family=Merriweather:wght@900&family=Mulish:ital,wght@0,400;0,600;0,800;1,300&family=Open+Sans:wght@800&family=Poppins:wght@400;600;700;800&family=Work+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/522f7dbcea.js" crossorigin="anonymous"></script>
 <style>
     .font-manrope {
       
@@ -49,13 +51,13 @@
                   </ul>
                 </div>
                 <div class="navbar-end">
-                    <img src="Images/Frame (1).png" class="hidden lg:visible">
-                  <a class="btn btn-error lg:ml-6">Get Ticket</a>
+                    <img src="Images/Frame (1).png" class="hidden lg:block">
+                  <a class="w-[160px] h-[40px] btn btn-primary bg-red-600 rounded-lg border-red-600 mt-2 text-[18px] font-semibold lg:text-sm lg:ml-6">Get Ticket</a>
                 </div>
               </div>
         </nav>
-    </header>
-    <!-- <section class=" m-2 lg:mx-20">
+     </header>
+     <!-- <section class=" m-2 lg:mx-20">
         <div class="carousel w-full h-[500px]">
           <div id="slide1" class="carousel-item relative w-full">
             <div class="relative flex flex-col">
@@ -63,9 +65,9 @@
               <div class="bg-[#131318] text-white p-4 rounded-lg lg:absolute top-[350px] right-[32px] w-[560px] h-[160px] p-8"><h1 class="text-lg lg:text-xl">Meet all the heroes from the field</h1>
                 <p class="text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
-            </div> -->
-            <!-- sm:right-1/2 sm:top-[80%] -->
-            <!-- <div class="absolute flex justify-between transform -translate-y-1/2left-1/2 lg:top-[80%]"> 
+            </div>
+            
+            <div class="absolute flex justify-between transform -translate-y-1/2left-1/2 lg:top-[80%]"> 
               <div><a href="#slide3" class="btn btn-circle btn-outline">❮</a>
               <a href="#slide2" class="btn btn-circle btn-outline">❯</a></div>
             </div>
@@ -103,55 +105,268 @@
               and eventually to many other countries.</p>
         <div class="grid grid-cols-1 lg:grid-cols-4">
           <div class="relative space-y-4 flex flex-col justify-center items-center">
-            <div class="relative py-5"><img src="Images/red.png" class="relative"></div>
-            <h1 class="absolute top-12 left-[160px] lg:left-[114px]">87%</h1>
+            <div class="radial-progress text-[#FF0000]" style="--value:87;" role="progressbar">87%</div>
             <h3 class="text-xl font-semibold text-[#131318]">Prayer Facility</h3>
             <p class="text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
           </div>
           <div class="relative space-y-4 flex flex-col justify-center items-center">
-            <div class="relative py-5"><img src="Images/green.png" class="relative"></div>
-            <h1 class="absolute top-12 left-[160px] lg:left-[114px]">95%</h1>
+            <div class="radial-progress text-[#58e06d]" style="--value:95;" role="progressbar">95%</div>
             <h3 class="text-xl font-semibold text-[#131318]">Experienced Coach</h3>
             <p class="text-center">We are providing top ranking Experienced Coach</p>
           </div>
           <div class="relative space-y-4 flex flex-col justify-center items-center">
-            <div class="relative py-5"><img src="Images/yellow.png" class="relative"></div>
-            <h1 class="absolute top-12 left-[160px] lg:left-[114px]">90%</h1>
+            <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
             <h3 class="text-xl font-semibold text-[#131318]">Senior Player</h3>
             <p class="text-center">A large number senior player play here .</p>
           </div>
           <div class="relative space-y-4 flex flex-col justify-center items-center">
-            <div class="relative py-5"><img src="Images/blue.png" class="relative"></div>
-            <h1 class="absolute top-12 left-[160px] lg:left-[114px]">80%</h1>
+            <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
             <h3 class="text-xl font-semibold text-[#131318]">Training Ground</h3>
             <p class="text-center">We are providing number one class Training Ground  .</p>
           </div>
         </div>
       </section> -->
+       <!-- <div class="relative py-5"><img src="Images/blue.png" class="relative"></div>
+            <h1 class="absolute top-12 left-[160px] lg:left-[114px]">80%</h1> -->
       <!-- profession hockeys club end  -->
 
 
       <!-- Program Sections start  -->
-      <section class="m-4 lg:m-20">
-        <h1>Program Sections</h1>
-        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+      <!-- <section class="m-4 lg:m-20">
+        <h1 class="text-[22px] lg:text-[36px] font-extrabold text-[#131318] text-center mb-6">Program Sections</h1>
+        <p class="text-[16px] font-medium text-center mb-8">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
            Purus urna in sit nullam proin. </p>
-           <div>
-            <div><div class="hero min-h-screen" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
-              <div class="hero-overlay bg-opacity-60"></div>
-              <div class="hero-content text-center text-neutral-content">
+           <div class="text-[#FFF] grid gap-6 grid-cols-1 lg:grid-cols-2">
+            <div class="hero min-h-screen rounded-2xl border-white" style="background-image: url(Images/2.png);">
+              <div class="hero-overlay bg-opacity-50"></div>
+              <div class="hero-content text-left text-neutral-content">
                 <div class="max-w-md">
-                  <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                  <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                  <button class="btn btn-primary">Get Started</button>
+                  <h1 class="mb-4 text-xl font-extrabold lg:text-[28px] lg:text-left">Junior Program</h1>
+                  <p class="mb-4  text-[14px] lg:text-xs font-medium">USA Hockey's junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills and is an 
+                    mportant part of the organization's overall efforts related to player development.  </p>
+                  <button class=" w-[160px] h-[40px] btn btn-primary bg-red-600 rounded-lg border-red-600 mt-2 text-[18px] font-semibold lg:text-sm">Register Now!</button>
                 </div>
               </div>
-            </div></div>
-            <div></div>
-            <div></div>
+          </div>
+            <div class="hero min-h-screen rounded-2xl border-white" style="background-image: url(Images/3.png);">
+              <div class="hero-overlay bg-opacity-50"></div>
+              <div class="hero-content text-left text-neutral-content">
+                <div class="max-w-md">
+                  <h1 class="mb-4 text-xl font-extrabold lg:text-[28px] lg:text-left">Teenager Program</h1>
+                  <p class="mb-4  text-[14px] lg:text-xs font-medium">From finding a rink near you to selecting the first set of skates and stepping on the ice, getting into the game is an exciting adventure. </p>
+                  <button class=" w-[160px] h-[40px] btn btn-primary bg-red-600 rounded-lg border-red-600 mt-2 text-[18px] font-semibold lg:text-sm">Register Now!</button>
+                </div>
+              </div>
+          </div>
+            <div class="hero min-h-screen rounded-2xl border-white lg:col-span-2" style="background-image: url(Images/4.png);">
+              <div class="hero-overlay bg-opacity-50"></div>
+              <div class="hero-content text-left text-neutral-content">
+                <div class="max-w-md lg:relative">
+                  <div class="lg:absolute lg:right-28 lg:w-96">
+                    <h1 class="mb-4 text-xl font-extrabold lg:text-[28px] lg:text-left">Professional Program</h1>
+                  <p class="mb-4  text-[14px] lg:text-xs font-medium">The Hockey Skating 1 online course is designed to assist
+                     professional figure skating coaches with coaching hockey players. The course will explain the basics of hockey and how to </p>
+                  <button class=" w-[160px] h-[40px] btn btn-primary bg-red-600 rounded-lg border-red-600 mt-2 text-[18px] font-semibold lg:text-sm">Register Now!</button>
+                  </div>
+                </div>
+              </div>
+          </div>
            </div>
+      </section> -->
+      <!-- Program Sections end  -->
 
+      <!-- POur New Products start  -->
+
+      <!-- <section class="m-4 lg:m-20">
+        <h1 class=" text-[22px] lg:text-3xl font-extrabold mb-6 text-center">Our New Products</h1>
+        <p class="text-sm text-[#13131899] lg:text-base mb-6 text-center">Technique training for ambitious ice hockey players - new product area</p>
+<div class="lg:grid gap-6 lg:grid-cols-2">
+  <div class="bg-[#FFF] rounded-2xl border-[#1313181A] border-[2px] p-5 lg:h-[218px]">
+    <div class=" flex flex-col gap-4 lg:flex-row">
+      <img src="Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
+      <div class="flex flex-col"> 
+        <div class="flex mt-6 lg:mt-1">              
+              <img src="Images/star.png">
+              <h3 class="mr-4">5.0</h3>
+              <img src="Images/yei.png">
+              <h3 class="mr-4">20</h3>
+              <img src="Images/love.png">
+              <h3>200</h3>
+        </div> 
+        <h1 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h1>
+        <p class="py-3 text-[16px] font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+        <div class="lg:flex lg:justify-between lg:items-center"><button class="text-left text-[#FF4240] text-[18px] font-extrabold">Price - $22.00</button>
+        <div class="flex mt-4 lg:mt-0">
+          <img src="Images/cart.png" class="w-[24px] h-[24px]">
+          <h4 class="">Delivery Fee : Free</h4>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="min-h-screen bg-[#FFF]">
+    <div class=" flex flex-col gap-4 lg:flex-row">
+      <img src="Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
+      <div class="flex flex-col">
+        <div class="flex mt-6 lg:mt-1">              
+              <img src="Images/star.png">
+              <h3 class="mr-4">5.0</h3>
+              <img src="Images/yei.png">
+              <h3 class="mr-4">20</h3>
+              <img src="Images/love.png">
+              <h3>200</h3>
+        </div> 
+        <h1 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h1>
+        <p class="py-3 text-[16px] font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+        <div class="lg:flex lg:justify-between lg:items-center"><button class="text-left text-[#FF4240] text-[18px] font-extrabold">Price - $22.00</button>
+        <div class="flex mt-4 lg:mt-0">
+          <img src="Images/cart.png" class="w-[24px] h-[24px]">
+          <h4 class="">Delivery Fee : Free</h4>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="min-h-screen bg-[#FFF]">
+    <div class=" flex flex-col gap-4 lg:flex-row">
+      <img src="Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
+      <div class="flex flex-col">
+        <div class="flex mt-6 lg:mt-1">               
+              <img src="Images/star.png">
+              <h3 class="mr-4">5.0</h3>
+              <img src="Images/yei.png">
+              <h3 class="mr-4">20</h3>
+              <img src="Images/love.png">
+              <h3>200</h3>
+        </div> 
+        <h1 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h1>
+        <p class="py-3 text-[16px] font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+        <div class="lg:flex lg:justify-between lg:items-center"><button class="text-left text-[#FF4240] text-[18px] font-extrabold">Price - $22.00</button>
+        <div class="flex mt-4 lg:mt-0">
+          <img src="Images/cart.png" class="w-[24px] h-[24px]">
+          <h4 class="">Delivery Fee : Free</h4>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="min-h-screen bg-[#FFF]">
+    <div class=" flex flex-col gap-4 lg:flex-row">
+      <img src="Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
+      <div class="flex flex-col">
+        <div class="flex mt-6 lg:mt-1">              
+              <img src="Images/star.png">
+              <h3 class="mr-4">5.0</h3>
+              <img src="Images/yei.png">
+              <h3 class="mr-4">20</h3>
+              <img src="Images/love.png">
+              <h3>200</h3>
+        </div> 
+        <h1 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h1>
+        <p class="py-3 text-[16px] font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+        <div class="lg:flex lg:justify-between lg:items-center"><button class="text-left text-[#FF4240] text-[18px] font-extrabold">Price - $22.00</button>
+        <div class="flex mt-4 lg:mt-0">
+          <img src="Images/cart.png" class="w-[24px] h-[24px]">
+          <h4 class="">Delivery Fee : Free</h4>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="min-h-screen bg-[#FFF]">
+    <div class=" flex flex-col gap-4 lg:flex-row">
+      <img src="Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
+      <div class="flex flex-col">
+        <div class="flex mt-6 lg:mt-1">               
+              <img src="Images/star.png">
+              <h3 class="mr-4">5.0</h3>
+              <img src="Images/yei.png">
+              <h3 class="mr-4">20</h3>
+              <img src="Images/love.png">
+              <h3>200</h3>
+        </div> 
+        <h1 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h1>
+        <p class="py-3 text-[16px] font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+        <div class="flex justify-between items-center"><button class="text-left text-[#FF4240] text-[18px] font-extrabold">Price - $22.00</button>
+        <div class="flex mt-4 lg:mt-0">
+          <img src="Images/cart.png" class="w-[24px] h-[24px]">
+          <h4 class="">Delivery Fee : Free</h4>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="min-h-screen bg-[#FFF]">
+    <div class=" flex flex-col gap-4 lg:flex-row">
+      <img src="Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+      <div class="flex flex-col">
+        <div class="flex mt-6 lg:mt-1">              
+              <img src="Images/star.png">
+              <h3 class="mr-4">5.0</h3>
+              <img src="Images/yei.png">
+              <h3 class="mr-4">20</h3>
+              <img src="Images/love.png">
+              <h3>200</h3>
+        </div> 
+        <h1 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h1>
+        <p class="py-3 text-[16px] font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+        <div class="lg:flex lg:justify-between lg:items-center"><button class="text-left text-[#FF4240] text-[18px] font-extrabold">Price - $22.00</button>
+        <div class="flex mt-4 lg:mt-0">
+          <img src="Images/cart.png" class="w-[24px] h-[24px]">
+          <h4 class="">Delivery Fee : Free</h4>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>  -->
+
+ <!-- Our New Products end  -->
       </section>
+    <footer class="m-2 lg:m-20 text-white bg-[#131318]">
+      <div class=" grid grid-cols-2 lg:grid-cols-4 gap-10 lg:px-24 lg:py-20">
+        <div class="col-span-2 lg:col-span-1">
+        <div class="glex flex-col justify-items-center text-center">
+          <h1 class="text-center">Get In Touch</h1>
+          <p class="text-center">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          <div class="flex items-center pl-14 lg:p-0">
+            <i class="fa-regular fa-envelope text-red-500"></i>
+          <p class="ml-2">hockeys@support.com</p>
+          </div>
+          <div class="flex justify-items-center items-center pl-16 lg:p-0">
+             <img src="Images/call.png">
+            <h6 class="ml-2">(+62) 123-321-543</h6>
+          </div>
+        </div>
+      </div>
+        <!-- company support -->
+              <div class="col-span-1 text-center">
+                <h5>Company</h5>
+                <h5>About us</h5>
+                <h5>Leadership</h5>
+                <h5>Careers</h5>
+                <h5>News & Article</h5>
+                <h5>Legal Notice</h5>
+              </div>
+            
 
+              <div class="col-span-1 text-center ">
+                <h5>Support</h5>
+                <h5>Help Center</h5>
+                <h5>FAQ</h5>
+                <h5>Ticket Support</h5>
+                <h5>Contact Us</h5>
+              </div>
+      
+        <div class="col-span-2 lg:col-span-1 text-center">
+          <div>Services</div>
+          <div>Academy </div>
+          <div>Group Lesson</div>
+          <div> Private Lesson</div>
+          <div>Hockeys for kids</div>
+          <div> Hockeys for Adu</div>
+        </div>
+      </div>
+    </footer>
     </body>
     </html>
